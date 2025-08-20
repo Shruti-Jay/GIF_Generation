@@ -13,5 +13,5 @@ for filename in filenames:
     images.append(iio.imread(filename))
 
 iio.imwrite("/Users/shruti_jay/Desktop/Project1/final.gif", images, duration=500, loop=0)
-print("GIF created successfully!")
+print("GIF created successfully!")  //test statement
 
